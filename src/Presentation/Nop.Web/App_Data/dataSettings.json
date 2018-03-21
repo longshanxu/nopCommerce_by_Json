@@ -1,0 +1,5 @@
+{
+  "DataProvider": "sqlserver",
+  "DataConnectionString": "Data Source=json.chinacloudapp.cn;Initial Catalog=nopCommerce;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=Password01!",
+  "RawDataSettings": {}
+}

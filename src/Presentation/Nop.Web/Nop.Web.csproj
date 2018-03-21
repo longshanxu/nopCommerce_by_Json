@@ -51,6 +51,25 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Plugins\DiscountRules.CustomerRoles\" />
+    <Folder Include="Plugins\ExchangeRate.EcbExchange\" />
+    <Folder Include="Plugins\ExternalAuth.Facebook\" />
+    <Folder Include="Plugins\Payments.CheckMoneyOrder\" />
+    <Folder Include="Plugins\Payments.Manual\" />
+    <Folder Include="Plugins\Payments.PayPalDirect\" />
+    <Folder Include="Plugins\Payments.PayPalStandard\" />
+    <Folder Include="Plugins\Payments.Square\" />
+    <Folder Include="Plugins\Payments.Worldpay\" />
+    <Folder Include="Plugins\Pickup.PickupInStore\" />
+    <Folder Include="Plugins\Shipping.Fedex\" />
+    <Folder Include="Plugins\Shipping.FixedOrByWeight\" />
+    <Folder Include="Plugins\Shipping.UPS\" />
+    <Folder Include="Plugins\Tax.FixedOrByCountryStateZip\" />
+    <Folder Include="Plugins\Widgets.GoogleAnalytics\" />
+    <Folder Include="Plugins\Widgets.NivoSlider\" />
+  </ItemGroup>
+
   <!-- This target execute after "Build" target.
     We use it to clean up folder with plugins from unnecessary and obsolete libraries. -->
   <Target Name="NopTarget" AfterTargets="Build">
