@@ -1,3 +1,5 @@
 [
-  "Payments.PayPalStandard"
+  "Payments.PayPalStandard",
+  "Payments.AliPay",
+  "ExternalAuth.QQConnect"
 ]
